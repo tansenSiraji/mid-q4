@@ -1,4 +1,10 @@
 /* Add your styles here */
+#form{
+    position: absolute;
+  left: 100px;
+  top: 150px;
+}
+
 #roundBtn{
     border-radius: 6px;
 }
@@ -12,8 +18,28 @@
 
   }
 
-#inp{
-    height: "50px";
-    width: "50px";
+#result{
+    height: "500px";
+    width: "500px";
     font-size: "14pt";
+    
+}
+
+#violet{
+    background-color: violet;
+}
+
+#indigo{
+    background-color: indigo;
+    color: white;
+}
+
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#white{
+    background-color: white;
 }

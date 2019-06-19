@@ -8,25 +8,40 @@
       <!-- Your site content here -->
       <h1><b>Text Logo<br>
       Maker</b></h1>
+      <div id = 'form'>
       <form>
         Letter One
-        <input type="text" name="letter1"><br>
+        <input type="text" name="letter1" id = "letter1"><br>
         <br>
         <br>
         Letter Two
-        <input type="text" name="letter2"><br>
+        <input type="text" name="letter2" id = "letter2"><br>
         <br>
         <br>
         Border Width (px)
-        <input type="number" name="width">
+        <input type="number" name="radius" id = "radius">
       </form>
-
+      <br>
+      <br>
       <button id = 'roundBtn'>Rounded Corner</button>
-
+      </div>
       <div id= 'right'>
         <form>
-          <input type="text" name = "input" id = "inp">
+          <textarea type="text" name = "input" id = "result"></textarea>
         </form>
+        <br>
+        <br>
+        <button id = 'bG' >Background</button><br>
+        <br>
+        <button id = 'l1' >Letter 1</button>
+        <button id = 'l2' >Letter 2</button>
+        <br>
+        <br>
+        <button id = 'violet' onclick="changeBG(event)">V</button>
+        <button id = 'indigo' onclick="changeBG(event)">I</button>
+        <button id = 'red' onclick="changeBG(event)">R</button>
+        <button id = 'blue' onclick="changeBG(event)">B</button>
+        <button id = 'white' onclick="changeBG(event)">W</button>
       </div>
     
 
