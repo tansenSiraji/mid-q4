@@ -1,1 +1,19 @@
 /* Add your styles here */
+#roundBtn{
+    border-radius: 6px;
+}
+
+#roundBtn:active{
+    background-color: grey;
+}
+
+#right {
+    float: right;
+
+  }
+
+#inp{
+    height: "50px";
+    width: "50px";
+    font-size: "14pt";
+}
